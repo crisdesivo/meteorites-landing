@@ -1,0 +1,288 @@
+{
+  "records": 45716,
+  "mappable": 31963,
+  "no_coords": 7315,
+  "null_island": 6214,
+  "found": 44609,
+  "fell": 1107,
+  "relict": 75,
+  "excluded_bad_yamato": 223,
+  "antarctica": 22099,
+  "unique_locations": 17097,
+  "largest_stack": {
+    "records": 4761,
+    "example": "Yamato 000593",
+    "lat": -71.5,
+    "lon": 35.66667
+  },
+  "antarctica_share_of_mapped": 0.6913931733566937,
+  "unknown_year": 292,
+  "year_min": 860,
+  "year_max": 2013,
+  "classes": 466,
+  "total_mass_t": 605.281210638,
+  "median_mass_g_found": 30.5,
+  "median_mass_g_fell": 2800.0,
+  "post_1970_share": 0.9494980626981332,
+  "oldest_falls": [
+    {
+      "name": "Nogata",
+      "year": 860.0,
+      "recclass": "L6"
+    },
+    {
+      "name": "Narni",
+      "year": 920.0,
+      "recclass": "Stone-uncl"
+    },
+    {
+      "name": "Elbogen",
+      "year": 1399.0,
+      "recclass": "Iron, IID"
+    }
+  ],
+  "heaviest": [
+    {
+      "name": "Hoba",
+      "id": 11890,
+      "class": "Iron, IVB",
+      "mass_t": 60.0,
+      "fall": "Found",
+      "year": 1920
+    },
+    {
+      "name": "Cape York",
+      "id": 5262,
+      "class": "Iron, IIIAB",
+      "mass_t": 58.2,
+      "fall": "Found",
+      "year": 1818
+    },
+    {
+      "name": "Campo del Cielo",
+      "id": 5247,
+      "class": "Iron, IAB-MG",
+      "mass_t": 50.0,
+      "fall": "Found",
+      "year": 1575
+    },
+    {
+      "name": "Canyon Diablo",
+      "id": 5257,
+      "class": "Iron, IAB-MG",
+      "mass_t": 30.0,
+      "fall": "Found",
+      "year": 1891
+    },
+    {
+      "name": "Armanty",
+      "id": 2335,
+      "class": "Iron, IIIE",
+      "mass_t": 28.0,
+      "fall": "Found",
+      "year": 1898
+    },
+    {
+      "name": "Gibeon",
+      "id": 10912,
+      "class": "Iron, IVA",
+      "mass_t": 26.0,
+      "fall": "Found",
+      "year": 1836
+    },
+    {
+      "name": "Chupaderos",
+      "id": 5363,
+      "class": "Iron, IIIAB",
+      "mass_t": 24.3,
+      "fall": "Found",
+      "year": 1852
+    },
+    {
+      "name": "Mundrabilla",
+      "id": 16852,
+      "class": "Iron, IAB-ung",
+      "mass_t": 24.0,
+      "fall": "Found",
+      "year": 1911
+    },
+    {
+      "name": "Sikhote-Alin",
+      "id": 23593,
+      "class": "Iron, IIAB",
+      "mass_t": 23.0,
+      "fall": "Fell",
+      "year": 1947
+    },
+    {
+      "name": "Bacubirito",
+      "id": 4919,
+      "class": "Iron, ungrouped",
+      "mass_t": 22.0,
+      "fall": "Found",
+      "year": 1863
+    }
+  ],
+  "groups": {
+    "Ordinary chondrite": {
+      "count": 39843,
+      "mass_kg": 59497.8,
+      "count_share": 0.8715,
+      "mass_share": 0.0983
+    },
+    "Carbonaceous chondrite": {
+      "count": 1584,
+      "mass_kg": 3535.1,
+      "count_share": 0.0346,
+      "mass_share": 0.0058
+    },
+    "Other chondrite": {
+      "count": 688,
+      "mass_kg": 964.6,
+      "count_share": 0.015,
+      "mass_share": 0.0016
+    },
+    "Achondrite": {
+      "count": 1837,
+      "mass_kg": 5960.2,
+      "count_share": 0.0402,
+      "mass_share": 0.0098
+    },
+    "Lunar / Martian": {
+      "count": 284,
+      "mass_kg": 188.4,
+      "count_share": 0.0062,
+      "mass_share": 0.0003
+    },
+    "Iron": {
+      "count": 1069,
+      "mass_kg": 514527.7,
+      "count_share": 0.0234,
+      "mass_share": 0.8501
+    },
+    "Stony-iron": {
+      "count": 281,
+      "mass_kg": 20284.8,
+      "count_share": 0.0061,
+      "mass_share": 0.0335
+    },
+    "Unclassified": {
+      "count": 130,
+      "mass_kg": 322.7,
+      "count_share": 0.0028,
+      "mass_share": 0.0005
+    }
+  },
+  "by_decade": {
+    "1800": {
+      "Found in Antarctica": 0,
+      "Found elsewhere or unlocated": 5,
+      "Witnessed fall": 17
+    },
+    "1810": {
+      "Found in Antarctica": 0,
+      "Found elsewhere or unlocated": 6,
+      "Witnessed fall": 24
+    },
+    "1820": {
+      "Found in Antarctica": 0,
+      "Found elsewhere or unlocated": 5,
+      "Witnessed fall": 25
+    },
+    "1830": {
+      "Found in Antarctica": 0,
+      "Found elsewhere or unlocated": 12,
+      "Witnessed fall": 21
+    },
+    "1840": {
+      "Found in Antarctica": 0,
+      "Found elsewhere or unlocated": 18,
+      "Witnessed fall": 31
+    },
+    "1850": {
+      "Found in Antarctica": 0,
+      "Found elsewhere or unlocated": 35,
+      "Witnessed fall": 36
+    },
+    "1860": {
+      "Found in Antarctica": 0,
+      "Found elsewhere or unlocated": 39,
+      "Witnessed fall": 56
+    },
+    "1870": {
+      "Found in Antarctica": 0,
+      "Found elsewhere or unlocated": 38,
+      "Witnessed fall": 51
+    },
+    "1880": {
+      "Found in Antarctica": 0,
+      "Found elsewhere or unlocated": 83,
+      "Witnessed fall": 40
+    },
+    "1890": {
+      "Found in Antarctica": 0,
+      "Found elsewhere or unlocated": 75,
+      "Witnessed fall": 51
+    },
+    "1900": {
+      "Found in Antarctica": 0,
+      "Found elsewhere or unlocated": 83,
+      "Witnessed fall": 56
+    },
+    "1910": {
+      "Found in Antarctica": 1,
+      "Found elsewhere or unlocated": 87,
+      "Witnessed fall": 66
+    },
+    "1920": {
+      "Found in Antarctica": 0,
+      "Found elsewhere or unlocated": 89,
+      "Witnessed fall": 70
+    },
+    "1930": {
+      "Found in Antarctica": 0,
+      "Found elsewhere or unlocated": 218,
+      "Witnessed fall": 91
+    },
+    "1940": {
+      "Found in Antarctica": 0,
+      "Found elsewhere or unlocated": 138,
+      "Witnessed fall": 58
+    },
+    "1950": {
+      "Found in Antarctica": 0,
+      "Found elsewhere or unlocated": 152,
+      "Witnessed fall": 60
+    },
+    "1960": {
+      "Found in Antarctica": 12,
+      "Found elsewhere or unlocated": 323,
+      "Witnessed fall": 62
+    },
+    "1970": {
+      "Found in Antarctica": 4398,
+      "Found elsewhere or unlocated": 511,
+      "Witnessed fall": 60
+    },
+    "1980": {
+      "Found in Antarctica": 6364,
+      "Found elsewhere or unlocated": 402,
+      "Witnessed fall": 56
+    },
+    "1990": {
+      "Found in Antarctica": 6772,
+      "Found elsewhere or unlocated": 4791,
+      "Witnessed fall": 56
+    },
+    "2000": {
+      "Found in Antarctica": 4459,
+      "Found elsewhere or unlocated": 13239,
+      "Witnessed fall": 59
+    },
+    "2010": {
+      "Found in Antarctica": 93,
+      "Found elsewhere or unlocated": 1857,
+      "Witnessed fall": 13
+    }
+  }
+}

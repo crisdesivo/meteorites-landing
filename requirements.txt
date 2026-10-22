@@ -1,0 +1,7 @@
+# Python 3.12. Everything needed for build.py and the notebook.
+pandas==2.2.3
+numpy==2.5.4
+matplotlib==3.9.4
+cartopy==0.24.0
+shapely==2.2.0
+notebook==7.4.5
