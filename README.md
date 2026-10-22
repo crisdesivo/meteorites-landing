@@ -2,6 +2,8 @@
 
 **Every known meteorite on one map.** I take NASA's Meteorite Landings dataset (45,716 records from The Meteoritical Society), clean it, and put the 31,963 that have usable coordinates on a world map. There's a static map, an interactive one you can filter by year, mass, class and fell/found, and a few numbers that surprised me along the way.
 
+**[Open the live map →](https://crisdesivo.github.io/meteorites-landing/)**
+
 ![Interactive map demo: filtering by mass, showing only witnessed falls, a year time-lapse, the Antarctic finds and a search for Hoba](assets/demo.gif)
 
 *The interactive map in [`docs/index.html`](docs/index.html): one static page, no server, no API keys.*
@@ -45,7 +47,7 @@ Years outside 800–2016 (one record says 2101) are treated as unknown instead o
 
 ## Interactive map
 
-Open [`docs/index.html`](docs/index.html) in a browser. It works straight from disk, and any static host can serve `docs/` as-is (GitHub Pages included).
+It's live at https://crisdesivo.github.io/meteorites-landing/. Locally, open [`docs/index.html`](docs/index.html) in a browser: it works straight from disk, and any static host can serve `docs/` as-is.
 
 - Filter by year range, minimum mass, found / seen falling and class group. The counter updates live.
 - Colour the dots by found/fell or by year.
