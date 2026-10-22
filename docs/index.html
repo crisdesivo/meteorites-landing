@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meteorite Landings Map</title>
+  <meta name="description" content="Interactive map of every located meteorite in NASA's Meteorite Landings dataset, with filters by year, mass, class and fell/found.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside id="panel">
+    <header>
+      <h1>Meteorite Landings</h1>
+      <p class="sub">Every located meteorite in NASA's dataset. Dot size grows with mass; click one for details.</p>
+    </header>
+
+    <div class="count" aria-live="polite">
+      <span id="count">–</span>
+      <span class="count-label">meteorites shown</span>
+      <div id="breakdown" class="breakdown"></div>
+    </div>
+
+    <section>
+      <label class="field-label" for="search">Find a meteorite</label>
+      <input id="search" type="search" placeholder="e.g. Hoba, Allende, Chelyabinsk" list="names" autocomplete="off">
+      <datalist id="names"></datalist>
+      <div class="views" id="views">
+        <button type="button" data-view="world">World</button>
+        <button type="button" data-view="antarctica">Antarctica</button>
+        <button type="button" data-view="sahara">Sahara</button>
+        <button type="button" data-view="oman">Oman</button>
+      </div>
+    </section>
+
+    <section>
+      <div class="field-label">Year <span id="year-label" class="value"></span></div>
+      <div class="dual">
+        <input id="year-min" type="range" aria-label="Earliest year">
+        <input id="year-max" type="range" aria-label="Latest year">
+      </div>
+      <p class="hint">Year found or fell. Undated records show only at full range.</p>
+    </section>
+
+    <section>
+      <label class="field-label" for="mass">Minimum mass <span id="mass-label" class="value"></span></label>
+      <input id="mass" type="range" min="0" max="7" step="1" value="0">
+    </section>
+
+    <section>
+      <div class="field-label">How it was discovered</div>
+      <div class="row">
+        <label class="check"><input type="checkbox" id="found" checked><span class="swatch found"></span>Found</label>
+        <label class="check"><input type="checkbox" id="fell" checked><span class="swatch fell"></span>Seen falling</label>
+      </div>
+    </section>
+
+    <section>
+      <div class="field-label">Class group <button id="groups-toggle" class="link" type="button">none</button></div>
+      <div id="groups"></div>
+    </section>
+
+    <section>
+      <div class="field-label">Colour by</div>
+      <div class="seg" role="radiogroup">
+        <label><input type="radio" name="color" value="fall" checked><span>Found / fell</span></label>
+        <label><input type="radio" name="color" value="year"><span>Year</span></label>
+      </div>
+      <div id="year-legend" class="ramp" hidden>
+        <span>older</span><div class="ramp-bar"></div><span>recent</span>
+      </div>
+    </section>
+
+    <footer>
+      Data: <a href="https://data.nasa.gov/dataset/meteorite-landings">NASA Meteorite Landings</a>
+      (The Meteoritical Society).<br>
+      <a href="https://github.com/crisdesivo/meteorites-landing">Source on GitHub</a> ·
+      Made by <a href="https://cristiandesivo.com">Cristian Desivo</a>
+    </footer>
+  </aside>
+
+  <main id="map" aria-label="World map of meteorite landings"></main>
+  <div id="loading">Loading 32k meteorites…</div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="data/basemap.js"></script>
+  <script src="data/meteorites.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
